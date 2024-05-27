@@ -1,6 +1,7 @@
 variable "GOOGLE_CREDENTIALS" {
   description = "The creds ID"
   type        = string
+  sensitive = true
 }
 
 variable "project" {
