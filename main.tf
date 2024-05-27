@@ -5,7 +5,7 @@ provider "google" {
 }
 
 
-esource "google_compute_instance" "default" {
+resource "google_compute_instance" "default" {
   name         = "test-instance"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
